@@ -15,6 +15,7 @@
 		52D1FCEA1EBC28BC009A00C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52D1FCE81EBC28BC009A00C5 /* LaunchScreen.storyboard */; };
 		52D1FCF51EBC28BC009A00C5 /* TestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D1FCF41EBC28BC009A00C5 /* TestDemoTests.m */; };
 		52D1FD001EBC28BC009A00C5 /* TestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D1FCFF1EBC28BC009A00C5 /* TestDemoUITests.m */; };
+		52D1FD0F1EBC296D009A00C5 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D1FD0E1EBC296D009A00C5 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		52D1FCFB1EBC28BC009A00C5 /* TestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52D1FCFF1EBC28BC009A00C5 /* TestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestDemoUITests.m; sourceTree = "<group>"; };
 		52D1FD011EBC28BC009A00C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52D1FD0D1EBC296D009A00C5 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		52D1FD0E1EBC296D009A00C5 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				52D1FCDE1EBC28BC009A00C5 /* AppDelegate.m */,
 				52D1FCE01EBC28BC009A00C5 /* ViewController.h */,
 				52D1FCE11EBC28BC009A00C5 /* ViewController.m */,
+				52D1FD0D1EBC296D009A00C5 /* Person.h */,
+				52D1FD0E1EBC296D009A00C5 /* Person.m */,
 				52D1FCE31EBC28BC009A00C5 /* Main.storyboard */,
 				52D1FCE61EBC28BC009A00C5 /* Assets.xcassets */,
 				52D1FCE81EBC28BC009A00C5 /* LaunchScreen.storyboard */,
@@ -275,6 +280,7 @@
 			files = (
 				52D1FCE21EBC28BC009A00C5 /* ViewController.m in Sources */,
 				52D1FCDF1EBC28BC009A00C5 /* AppDelegate.m in Sources */,
+				52D1FD0F1EBC296D009A00C5 /* Person.m in Sources */,
 				52D1FCDC1EBC28BC009A00C5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
